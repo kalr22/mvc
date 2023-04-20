@@ -1,0 +1,15 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Lucky number{% endblock %}
+
+{% block body %}
+    <h1 class="lucky">Luckynumber page!</h1>
+    <p>Ditt lyckonummer är = {{ number }}</p>
+    <p>Ladda om sidan för att visa ett annat nummer.</p>
+    <div class="dogs">
+        <img src="{{ asset('img/dog2.jpg') }}" alt="dog">
+        <img src="{{ asset('img/dog3.jpg') }}" alt="dog">
+        <img src="{{ asset('img/dog4.jpg') }}" alt="dog">
+        <img src="{{ asset('img/dog5.jpg') }}" alt="dog">
+    </div>
+{% endblock %}

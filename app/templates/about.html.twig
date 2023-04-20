@@ -1,0 +1,17 @@
+{% extends "base.html.twig" %}
+
+{% block title %}About page!{% endblock %}
+
+{% block body %}
+    <div class="main">
+        <h1>Information om kursen MVC</h1>
+        <p>Denna kurs kommer innehålla objektorienterad PHP-programmering med kända webbramverk, enhetstestning, kodkvalitet och databaskopplingar med objekt relational mapping (ORM). Namnet "mvc" står för Model View Controller. Syftet med kursen är att lära sig om objektorienterad PHP tillsammans med ramverket Symfony. Kursen omfattar även enhetstestning och snacket kring "snygg kod".</p>
+        <a href="{{ asset('img/oop.webp') }}">
+            <img class="oop" src="{{ asset('img/oop.webp') }}" alt="oop">
+        </a>
+        <aside>
+            <p>Länk till kursens <a href="https://github.com/dbwebb-se/mvc">Git-repo</a>.</p>
+            <p>Länk till Karolines <a href="https://github.com/kalr22">Git-repo</a>.</p>
+        </aside>
+    </div>
+{% endblock %}

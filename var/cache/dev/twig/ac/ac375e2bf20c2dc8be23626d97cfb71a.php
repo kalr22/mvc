@@ -149,6 +149,6 @@ class __TwigTemplate_a561d828e8a98c50899df17f359433fe extends Template
 
     {{ include('@WebProfiler/Profiler/toolbar_item.html.twig', { link: profiler_url }) }}
 {% endblock %}
-", "@WebProfiler/Profiler/cancel.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/app/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/cancel.html.twig");
+", "@WebProfiler/Profiler/cancel.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/cancel.html.twig");
     }
 }

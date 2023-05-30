@@ -1,0 +1,19 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Card Draw Number{% endblock %}
+
+{% block body %}
+    <h1>Draw number page!</h1>
+    <div class="wrapcards">
+    {% for i in numCards %}
+        <div class="card drawn">{{ i.number|raw }} {{ i.sign|raw }}</div>
+    {% endfor %}
+    </div>
+    <h2 class="center">There is {{ count }} cards left in the deck!</h2>
+    <div class="wrapcards">
+    {% for i in cards %}
+        <div class="card">{{ i.number|raw }} {{ i.sign|raw }}</div>
+    {% endfor %}
+    </div>
+    <p>Här dras :number kort från kortleken och visar upp dem. Visa även antalet kort som är kvar i kortleken.</p>
+{% endblock %}

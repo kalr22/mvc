@@ -1,0 +1,11 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Card{% endblock %}
+
+{% block body %}
+    <h1>Card page home!</h1>
+    <p>Strukturen på mina klasser är simpel. Jag har skapat två klasser "Card" och "Deck". Card innehåller tre variabler "number", "sign" och "priority" som representerar information om varje kort. "Priority" är till för att enkelt kunna sortera korten i färg och nummer efter att kortleken blandats. Deck innehåller samtliga metoder som behövs för att skapa och modifiera kortleken. I Deck finns en metod "init" som skapar en array av objekt som representerar var och en av korten. Det är i metoden "init" som klassen Card används.</p>
+    <div class="uml-div">
+        <img class="uml" src="{{ asset('img/uml.png') }}" alt="uml">
+    </div>
+{% endblock %}

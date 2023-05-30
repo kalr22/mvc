@@ -479,6 +479,6 @@ class __TwigTemplate_0578e5c2c644a8a2c549d24447e083e0 extends Template
         </div>
     {% endfor %}
 {% endblock %}
-", "@WebProfiler/Collector/validator.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/app/vendor/symfony/web-profiler-bundle/Resources/views/Collector/validator.html.twig");
+", "@WebProfiler/Collector/validator.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/vendor/symfony/web-profiler-bundle/Resources/views/Collector/validator.html.twig");
     }
 }

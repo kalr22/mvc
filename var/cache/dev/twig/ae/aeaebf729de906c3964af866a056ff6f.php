@@ -168,6 +168,6 @@ class __TwigTemplate_d927b418da72e62c778f5ae2ae0b47df extends Template
 
     {{ include('@WebProfiler/Profiler/toolbar_item.html.twig', { link: false }) }}
 {% endblock %}
-", "@WebProfiler/Collector/ajax.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/app/vendor/symfony/web-profiler-bundle/Resources/views/Collector/ajax.html.twig");
+", "@WebProfiler/Collector/ajax.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/vendor/symfony/web-profiler-bundle/Resources/views/Collector/ajax.html.twig");
     }
 }

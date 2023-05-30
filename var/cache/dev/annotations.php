@@ -58,10 +58,6 @@ return [[
 '[C]App%5CController%5CaboutControllerTwig' => 1,
 'App%5CController%5CaboutControllerTwig%23number' => 0,
 '[C]App%5CController%5CaboutControllerTwig%23number' => 1,
-'App%5CController%5CapiQuoteControllerTwig' => 0,
-'[C]App%5CController%5CapiQuoteControllerTwig' => 1,
-'App%5CController%5CapiQuoteControllerTwig%23quote' => 0,
-'[C]App%5CController%5CapiQuoteControllerTwig%23quote' => 1,
 'App%5CController%5CindexControllerTwig' => 0,
 '[C]App%5CController%5CindexControllerTwig' => 1,
 'App%5CController%5CindexControllerTwig%23home' => 0,
@@ -622,6 +618,6 @@ return [[
 ], [
 
 0 => [],
-1 => 1680432459,
+1 => 1685435113,
 
 ]];

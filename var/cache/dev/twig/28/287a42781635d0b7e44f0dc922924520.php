@@ -222,6 +222,6 @@ class __TwigTemplate_1ea699f89f5c0fe15b46cf2fa934fde4 extends Template
         {% block body '' %}
     </body>
 </html>
-", "@WebProfiler/Profiler/base.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/app/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/base.html.twig");
+", "@WebProfiler/Profiler/base.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/base.html.twig");
     }
 }

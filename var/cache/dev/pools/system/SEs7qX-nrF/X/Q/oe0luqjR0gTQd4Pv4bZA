@@ -1,0 +1,3 @@
+<?php //App%255CController%255CcardDeckNumberTwig
+
+return [PHP_INT_MAX, []];

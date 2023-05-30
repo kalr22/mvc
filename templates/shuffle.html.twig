@@ -1,0 +1,12 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Card Deck Shuffle{% endblock %}
+
+{% block body %}
+    <h1>Shuffle page!</h1>
+    <div class="wrapcards">
+    {% for i in cards %}
+        <div class="card">{{ i.number|raw }} {{ i.sign|raw }}</div>
+    {% endfor %}
+    </div>
+{% endblock %}

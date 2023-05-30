@@ -92,12 +92,16 @@ class __TwigTemplate_141f76152e244d508ab68bb244b927c3 extends Template
         // line 28
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("lucky");
         echo "\">Lucky</a></li>
+                <li><a href=\"";
+        // line 29
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("card");
+        echo "\">Card</a></li>
             </ul>
         </nav>
         ";
-        // line 31
-        $this->displayBlock('body', $context, $blocks);
         // line 32
+        $this->displayBlock('body', $context, $blocks);
+        // line 33
         echo "        <footer>
                 Copyright &#169; 2023
         </footer>
@@ -176,7 +180,7 @@ class __TwigTemplate_141f76152e244d508ab68bb244b927c3 extends Template
 
     }
 
-    // line 31
+    // line 32
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -206,7 +210,7 @@ class __TwigTemplate_141f76152e244d508ab68bb244b927c3 extends Template
 
     public function getDebugInfo()
     {
-        return array (  180 => 31,  167 => 16,  157 => 15,  144 => 12,  134 => 11,  116 => 5,  101 => 32,  99 => 31,  93 => 28,  89 => 27,  85 => 26,  81 => 25,  73 => 20,  69 => 18,  67 => 15,  64 => 14,  61 => 11,  53 => 5,  47 => 1,);
+        return array (  184 => 32,  171 => 16,  161 => 15,  148 => 12,  138 => 11,  120 => 5,  105 => 33,  103 => 32,  97 => 29,  93 => 28,  89 => 27,  85 => 26,  81 => 25,  73 => 20,  69 => 18,  67 => 15,  64 => 14,  61 => 11,  53 => 5,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -239,6 +243,7 @@ class __TwigTemplate_141f76152e244d508ab68bb244b927c3 extends Template
                 <li><a href=\"{{ path('about') }}\">About</a></li>
                 <li><a href=\"{{ path('report') }}\">Report</a></li>
                 <li><a href=\"{{ path('lucky') }}\">Lucky</a></li>
+                <li><a href=\"{{ path('card') }}\">Card</a></li>
             </ul>
         </nav>
         {% block body %}{% endblock %}
@@ -247,6 +252,6 @@ class __TwigTemplate_141f76152e244d508ab68bb244b927c3 extends Template
         </footer>
     </body>
 </html>
-", "base.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/app/templates/base.html.twig");
+", "base.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/templates/base.html.twig");
     }
 }

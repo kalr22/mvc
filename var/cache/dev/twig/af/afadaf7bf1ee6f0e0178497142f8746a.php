@@ -149,6 +149,6 @@ class __TwigTemplate_fc1f00c554ce810825236cf0c215c055 extends Template
         <img src=\"{{ asset('img/dog4.jpg') }}\" alt=\"dog\">
         <img src=\"{{ asset('img/dog5.jpg') }}\" alt=\"dog\">
     </div>
-{% endblock %}", "lucky.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/app/templates/lucky.html.twig");
+{% endblock %}", "lucky.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/templates/lucky.html.twig");
     }
 }

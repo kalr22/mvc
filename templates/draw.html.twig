@@ -1,0 +1,14 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Card Deck Draw{% endblock %}
+
+{% block body %}
+    <h1>Draw page!</h1>
+    <div class="card drawn">{{ drawnCard.number|raw }} {{ drawnCard.sign|raw }}</div>
+    <h2 class="center">There is {{ count }} cards left in the deck!</h2>
+    <div class="wrapcards">
+    {% for i in cards %}
+        <div class="card">{{ i.number|raw }} {{ i.sign|raw }}</div>
+    {% endfor %}
+    </div>
+{% endblock %}

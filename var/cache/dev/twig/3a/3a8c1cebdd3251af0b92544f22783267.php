@@ -131,6 +131,6 @@ class __TwigTemplate_835130dce5f3d4481cafe062ca67d149 extends Template
     <p>Mitt namn är Karoline och förutom programmering gillar jag att dyka och resa. På senaste tiden har fridykning varit något jag ägnat mig åt.</p>
     <p>För att varva ner mellan pluggrundorna fördrar jag även att meditera och göra yoga.</p>
     <p>Hundar är klart mitt favoritdjur.</p>
-{% endblock %}", "index.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/app/templates/index.html.twig");
+{% endblock %}", "index.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/templates/index.html.twig");
     }
 }

@@ -413,6 +413,6 @@ class __TwigTemplate_3c357432efcca4dbb3c78fc88fc44ffb extends Template
         </div>
     {% endfor %}
 {% endblock %}
-", "@Debug/Profiler/dump.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/app/vendor/symfony/debug-bundle/Resources/views/Profiler/dump.html.twig");
+", "@Debug/Profiler/dump.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/vendor/symfony/debug-bundle/Resources/views/Profiler/dump.html.twig");
     }
 }

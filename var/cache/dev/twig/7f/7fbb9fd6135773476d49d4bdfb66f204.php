@@ -144,6 +144,6 @@ class __TwigTemplate_0b553117ac9abc5431418232ba9fa3cf extends Template
             <p>Länk till Karolines <a href=\"https://github.com/kalr22\">Git-repo</a>.</p>
         </aside>
     </div>
-{% endblock %}", "about.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/app/templates/about.html.twig");
+{% endblock %}", "about.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/templates/about.html.twig");
     }
 }

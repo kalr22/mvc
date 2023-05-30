@@ -1787,6 +1787,6 @@ class __TwigTemplate_702a95f38cde20569d2607289a39bb88 extends Template
         </tbody>
     </table>
 {% endmacro %}
-", "@Doctrine/Collector/db.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/app/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig");
+", "@Doctrine/Collector/db.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig");
     }
 }

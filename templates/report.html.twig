@@ -4,7 +4,7 @@
 
 {% block body %}
     <h1>Redovisning av kursmoment i kursen MVC</h1>
-    <section>
+    <section class="section">
         <h2 id="kmom01">
             <a href="#kmom01">Kmom01</a>
         </h2>
@@ -20,42 +20,47 @@
         <p>Det finns många delar ur artikeln “PHP The Right Way” som jag anser intressanta och värdefulla. Förutom de grundläggande koncepten som tas upp i PHP tycker jag att delarna kring prestandatips och säkerhetsåtgärder är värdefulla och även delar jag gärna vill lära mig mer om.</p>
         <p>Mitt TIL för detta kursmoment har varit allt, allt känns ganska mycket just nu men hoppas på att saker och ting kommer falla på plats ju längre in i kursen jag kommer. </p>
     </section>
-    <section>
+    <section class="section">
         <h2 id="kmom02">
             <a href="#kmom02">Kmom02</a>
         </h2>
-        <p>Här är redovisningstexten.</p>
+        <ul>
+            <li>Arv tillåter en klass att ärva egenskaper från en annan klass. Den klassen som ärver kallas subklass eller barnklass, den ärver förälder-klassens egenskaper och metoder och kan även utöka eller modifiera dem efter behov.</li>
+            <li>En klass som innehåller en eller flera instanser av andra klasser kallas komposition. Genom att använda komposition kan man enkelt kombinera funktionaliteter hos olika klasser, vilket ger mer flexibilitet.</li>
+            <li>I en Interface beskriver man vilka metoder som måste finnas med i en klass, den beskriver bara och ger ingen implementation av dessa metoder. Detta kan vara nödvändigt att använda när man i flera klasser vill dela gemensam funktionalitet.</li>
+            <li>Trait är ett sätt att återanvända kod i PHP. En Trait är en samling metoder som kan användas av flera olika klasser, man inkluderar då traits i klassen genom att skriva “use” framför.</li>
+        </ul>
+        <p>Jag är helt okej nöjd med min lösning, har använt mig av två klasser, varav i den ena har jag använt mig av komposition i en av metoderna för att skapa varje kort. Det finns förbättringspotential i min klass Deck som innehåller alla metoder för att skapa och modifiera kortleken. Här hade man kunnat snygga upp det genom att ha fler klasser som ärver från varandra.</p>
+        <p>Mina reflektioner så här långt med att jobba i Symfony är att det är ganska rörigt, svårt att håla reda på alla mappar och filer. Det är speciellt svårt om man har missat att inkludera en fil i den fil man jobbar med, ibland har det tagit en stund för mig att förstå vad det är som är fel. Att jobba med klasser är helt nytt för mig och jag känner mig fortfarande lite ringrostig.</p>
     </section>
-    <section>
+    <section class="section">
         <h2 id="kmom03">
             <a href="#kmom03">Kmom03</a>
         </h2>
         <p>Här är redovisningstexten.</p>
     </section>
-    <section>
+    <section class="section">
         <h2 id="kmom04">
             <a href="#kmom04">Kmom04</a>
         </h2>
         <p>Här är redovisningstexten.</p>
     </section>
-    <section>
+    <section class="section">
         <h2 id="kmom05">
             <a href="#kmom05">Kmom05</a>
         </h2>
         <p>Här är redovisningstexten.</p>
     </section>
-    <section>
+    <section class="section">
         <h2 id="kmom06">
             <a href="#kmom06">Kmom06</a>
         </h2>
         <p>Här är redovisningstexten.</p>
     </section>
-    <section>
+    <section class="section">
         <h2 id="kmom07/10">
             <a href="#kmom07/10">Kmom07/10</a>
         </h2>
         <p>Här är redovisningstexten.</p>
     </section>
-    <p>Här samlar du dina redovisningstexter för kursens kmom.
- Skapa även så att länken /report#kmom01 leder direkt till kursmomentets redovisningstext.</p>
 {% endblock %}

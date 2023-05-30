@@ -1,0 +1,24 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Api Home{% endblock %}
+
+{% block body %}
+    <h1>Home of the Api!</h1>
+    <h3>Webbplatsens samtliga JSON routes!</h3>
+    <div>
+        <p>Denna länk tar dig till dagens citat som kommer göra dig glad.</p>
+        <a href="{{ path('quote') }}">Gå till dagens citat.</a>
+    </div>
+    <div>
+        <p>Visa samtliga kort i kortleken <a href="{{ path('api_deck') }}">här</a>.</p>
+    </div>
+    <div>
+        <p>Blanda kortleken <a href="{{ path('shuffleDeck') }}">här</a>.</p>
+    </div>
+    <div>
+        <p>Dra ut ett kort ur kortleken <a href="{{ path('drawDeck') }}">här</a>.</p>
+    </div>
+    <div>
+        <p>Dra 1 eller flera kort ur kortleken <a href="{{ path('drawNum', {'num': 1}) }}">här</a>, ändra antalet kort i url:en.</p>
+    </div>
+{% endblock %}

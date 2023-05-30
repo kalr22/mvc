@@ -1,0 +1,3 @@
+<?php //App%255CController%255CcardDeckShuffleTwig
+
+return [PHP_INT_MAX, []];

@@ -6,8 +6,20 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Card\\Card' => $baseDir . '/src/Card/Card.php',
+    'App\\Card\\Deck' => $baseDir . '/src/Card/Deck.php',
+    'App\\Controller\\GetDeckJson' => $baseDir . '/src/Controller/GetDeckJson.php',
+    'App\\Controller\\PostDeckJson' => $baseDir . '/src/Controller/PostDeckJson.php',
+    'App\\Controller\\PostDrawJson' => $baseDir . '/src/Controller/PostDrawJson.php',
+    'App\\Controller\\PostDrawNumJson' => $baseDir . '/src/Controller/PostDrawNumJson.php',
     'App\\Controller\\aboutControllerTwig' => $baseDir . '/src/Controller/aboutControllerTwig.php',
-    'App\\Controller\\apiQuoteControllerTwig' => $baseDir . '/src/Controller/apiQuoteControllerTwig.php',
+    'App\\Controller\\apiHomeTwig' => $baseDir . '/src/Controller/apiHomeTwig.php',
+    'App\\Controller\\apiQuoteController' => $baseDir . '/src/Controller/apiQuoteController.php',
+    'App\\Controller\\cardDeckDrawTwig' => $baseDir . '/src/Controller/cardDeckDrawTwig.php',
+    'App\\Controller\\cardDeckNumberTwig' => $baseDir . '/src/Controller/cardDeckNumberTwig.php',
+    'App\\Controller\\cardDeckShuffleTwig' => $baseDir . '/src/Controller/cardDeckShuffleTwig.php',
+    'App\\Controller\\cardDeckTwig' => $baseDir . '/src/Controller/cardDeckTwig.php',
+    'App\\Controller\\cardTwig' => $baseDir . '/src/Controller/cardTwig.php',
     'App\\Controller\\indexControllerTwig' => $baseDir . '/src/Controller/indexControllerTwig.php',
     'App\\Controller\\luckyControllerTwig' => $baseDir . '/src/Controller/luckyControllerTwig.php',
     'App\\Controller\\reportControllerTwig' => $baseDir . '/src/Controller/reportControllerTwig.php',

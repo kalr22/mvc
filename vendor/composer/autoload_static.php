@@ -558,8 +558,20 @@ class ComposerStaticInite35e1af66af4b1c0872b46a59f356449
     );
 
     public static $classMap = array (
+        'App\\Card\\Card' => __DIR__ . '/../..' . '/src/Card/Card.php',
+        'App\\Card\\Deck' => __DIR__ . '/../..' . '/src/Card/Deck.php',
+        'App\\Controller\\GetDeckJson' => __DIR__ . '/../..' . '/src/Controller/GetDeckJson.php',
+        'App\\Controller\\PostDeckJson' => __DIR__ . '/../..' . '/src/Controller/PostDeckJson.php',
+        'App\\Controller\\PostDrawJson' => __DIR__ . '/../..' . '/src/Controller/PostDrawJson.php',
+        'App\\Controller\\PostDrawNumJson' => __DIR__ . '/../..' . '/src/Controller/PostDrawNumJson.php',
         'App\\Controller\\aboutControllerTwig' => __DIR__ . '/../..' . '/src/Controller/aboutControllerTwig.php',
-        'App\\Controller\\apiQuoteControllerTwig' => __DIR__ . '/../..' . '/src/Controller/apiQuoteControllerTwig.php',
+        'App\\Controller\\apiHomeTwig' => __DIR__ . '/../..' . '/src/Controller/apiHomeTwig.php',
+        'App\\Controller\\apiQuoteController' => __DIR__ . '/../..' . '/src/Controller/apiQuoteController.php',
+        'App\\Controller\\cardDeckDrawTwig' => __DIR__ . '/../..' . '/src/Controller/cardDeckDrawTwig.php',
+        'App\\Controller\\cardDeckNumberTwig' => __DIR__ . '/../..' . '/src/Controller/cardDeckNumberTwig.php',
+        'App\\Controller\\cardDeckShuffleTwig' => __DIR__ . '/../..' . '/src/Controller/cardDeckShuffleTwig.php',
+        'App\\Controller\\cardDeckTwig' => __DIR__ . '/../..' . '/src/Controller/cardDeckTwig.php',
+        'App\\Controller\\cardTwig' => __DIR__ . '/../..' . '/src/Controller/cardTwig.php',
         'App\\Controller\\indexControllerTwig' => __DIR__ . '/../..' . '/src/Controller/indexControllerTwig.php',
         'App\\Controller\\luckyControllerTwig' => __DIR__ . '/../..' . '/src/Controller/luckyControllerTwig.php',
         'App\\Controller\\reportControllerTwig' => __DIR__ . '/../..' . '/src/Controller/reportControllerTwig.php',

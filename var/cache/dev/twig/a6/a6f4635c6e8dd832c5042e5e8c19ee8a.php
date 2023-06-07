@@ -93,6 +93,30 @@ class __TwigTemplate_987b9624c749431018d94fa795674fd8 extends Template
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("img/uml.png"), "html", null, true);
         echo "\" alt=\"uml\">
     </div>
+     <div>
+        <p>Visa samtliga kort i kortleken <a href=\"";
+        // line 12
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("deck");
+        echo "\">här</a>.</p>
+    </div>
+    <div>
+        <p>Blanda kortleken <a href=\"";
+        // line 15
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("shuffle");
+        echo "\">här</a>.</p>
+    </div>
+    <div>
+        <p>Dra ut ett kort ur kortleken <a href=\"";
+        // line 18
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("draw");
+        echo "\">här</a>.</p>
+    </div>
+    <div>
+        <p>Dra 1 eller flera kort ur kortleken <a href=\"";
+        // line 21
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("drawNumber", ["num" => 1]);
+        echo "\">här</a>, ändra antalet kort i url:en.</p>
+    </div>
 ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -114,7 +138,7 @@ class __TwigTemplate_987b9624c749431018d94fa795674fd8 extends Template
 
     public function getDebugInfo()
     {
-        return array (  93 => 9,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  117 => 21,  111 => 18,  105 => 15,  99 => 12,  93 => 9,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -128,6 +152,18 @@ class __TwigTemplate_987b9624c749431018d94fa795674fd8 extends Template
     <p>Strukturen på mina klasser är simpel. Jag har skapat två klasser \"Card\" och \"Deck\". Card innehåller tre variabler \"number\", \"sign\" och \"priority\" som representerar information om varje kort. \"Priority\" är till för att enkelt kunna sortera korten i färg och nummer efter att kortleken blandats. Deck innehåller samtliga metoder som behövs för att skapa och modifiera kortleken. I Deck finns en metod \"init\" som skapar en array av objekt som representerar var och en av korten. Det är i metoden \"init\" som klassen Card används.</p>
     <div class=\"uml-div\">
         <img class=\"uml\" src=\"{{ asset('img/uml.png') }}\" alt=\"uml\">
+    </div>
+     <div>
+        <p>Visa samtliga kort i kortleken <a href=\"{{ path('deck') }}\">här</a>.</p>
+    </div>
+    <div>
+        <p>Blanda kortleken <a href=\"{{ path('shuffle') }}\">här</a>.</p>
+    </div>
+    <div>
+        <p>Dra ut ett kort ur kortleken <a href=\"{{ path('draw') }}\">här</a>.</p>
+    </div>
+    <div>
+        <p>Dra 1 eller flera kort ur kortleken <a href=\"{{ path('drawNumber', {'num': 1}) }}\">här</a>, ändra antalet kort i url:en.</p>
     </div>
 {% endblock %}", "card.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/templates/card.html.twig");
     }

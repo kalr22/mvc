@@ -8,4 +8,16 @@
     <div class="uml-div">
         <img class="uml" src="{{ asset('img/uml.png') }}" alt="uml">
     </div>
+     <div>
+        <p>Visa samtliga kort i kortleken <a href="{{ path('deck') }}">här</a>.</p>
+    </div>
+    <div>
+        <p>Blanda kortleken <a href="{{ path('shuffle') }}">här</a>.</p>
+    </div>
+    <div>
+        <p>Dra ut ett kort ur kortleken <a href="{{ path('draw') }}">här</a>.</p>
+    </div>
+    <div>
+        <p>Dra 1 eller flera kort ur kortleken <a href="{{ path('drawNumber', {'num': 1}) }}">här</a>, ändra antalet kort i url:en.</p>
+    </div>
 {% endblock %}

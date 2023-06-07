@@ -128,7 +128,6 @@ class __TwigTemplate_a957c51916bedb2e8e393fd1a3b7a82f extends Template
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 17
         echo "    </div>
-    <p>Här dras :number kort från kortleken och visar upp dem. Visa även antalet kort som är kvar i kortleken.</p>
 ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -172,7 +171,6 @@ class __TwigTemplate_a957c51916bedb2e8e393fd1a3b7a82f extends Template
         <div class=\"card\">{{ i.number|raw }} {{ i.sign|raw }}</div>
     {% endfor %}
     </div>
-    <p>Här dras :number kort från kortleken och visar upp dem. Visa även antalet kort som är kvar i kortleken.</p>
 {% endblock %}", "drawnumber.html.twig", "/Users/karro/dbwebb-kurser/webtec/mvc/me/report/templates/drawnumber.html.twig");
     }
 }
